@@ -27,5 +27,11 @@ def encoder(encode):
         return_string = return_string + str(add)
     return return_string
 
+def decoder(encoded):
+	return_string = ''
+		for i in encoded_string:
+       		subtract = int(i) - 3
+       		return_string = return_string + str(subtract)
+   	return return_string
 
 main()
